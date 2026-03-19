@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/build/fishbot_description -- -j32 -l32
+[0.055s] Invoked command in '/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/build/fishbot_description -- -j32 -l32
+[0.068s] Invoking command in '/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/build/fishbot_description
+[0.079s] -- Install configuration: ""
+[0.079s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//launch
+[0.079s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//launch/display_robot.launch.py
+[0.079s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf
+[0.079s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/robot_name.pdf
+[0.079s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/first_robot.urdf
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/robot_name.gv
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[0.080s] -- Installing: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[0.080s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[0.081s] -- Up-to-date: /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/package.xml
+[0.083s] Invoked command in '/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/build/fishbot_description
