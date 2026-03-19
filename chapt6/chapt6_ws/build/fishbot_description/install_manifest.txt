@@ -22,6 +22,7 @@
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/robot_name.pdf
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/first_robot.urdf
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/robot_name.gv
+/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/first_robot.xacro
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//config/display_robot_model.rviz
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
