@@ -17,4 +17,31 @@
             </material>
         </visual>
     </link>
+    <!-- imu-->
+    <link name="imu_link">
+        <!-- the visual representation of the link -->
+        <visual>
+        <!-- 沿着自己几何中心的偏移和旋转量-->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <!-- 几何形状-->
+            <geometry>
+            <!-- 圆柱体，半径0.1m，高0.12m-->
+                <box size="0.02 0.02 0.02"/>
+            </geometry>
+            <!-- 材质和颜色-->
+            <material>
+                <color rgba="1.0 1.0 1.0 0.5"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- 机器人的关节，用于组合机器人各个部分-->
+    <joint name="imu_joint" type="fixed">
+        <!-- 连接的父链接和子链接-->
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <!-- 关节的原点位置和姿态-->
+        <origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0"/>
+        
+    </joint>
 </robot>
