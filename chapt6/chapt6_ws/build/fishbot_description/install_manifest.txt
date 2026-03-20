@@ -21,6 +21,13 @@
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//launch/__pycache__/display_robot.launch.cpython-310.pyc
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/robot_name.pdf
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/first_robot.urdf
+/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/fishbot/actuator/caster.urdf.xacro
+/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/fishbot/actuator/wheel.urdf.xacro
+/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/fishbot/fishbot.urdf.xacro
+/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/fishbot/base.urdf.xacro
+/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/fishbot/sensor/camera.urdf.xacro
+/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/fishbot/sensor/imu.urdf.xacro
+/home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/fishbot/sensor/radar.urdf.xacro
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/robot_name.gv
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//urdf/first_robot.xacro
 /home/snoopy/Desktop/fishros_learn/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description//config/display_robot_model.rviz

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="radar_xacro" params="xyz">
+        <!-- 雷达支撑杆-->
+        <link name="radar_cylinder_link">
+            <!-- the visual representation of the link -->
+            <visual>
+            <!-- 沿着自己几何中心的偏移和旋转量-->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <!-- 几何形状-->
+                <geometry>
+                <!-- 圆柱体，半径0.01m，高0.1m-->
+                    <cylinder radius="0.01" length="0.1"/>
+                </geometry>
+                <!-- 材质和颜色-->
+                <material name="black">
+                    <color rgba="0.0 0.0 0.0 1.0"/>
+                </material>
+            </visual>
+        </link>
+
+        <!-- 雷达-->
+        <link name="radar_link">
+            <!-- the visual representation of the link -->
+            <visual>
+            <!-- 沿着自己几何中心的偏移和旋转量-->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <!-- 几何形状-->
+                <geometry>
+                <!-- 圆柱体，半径0.02m，高0.02m-->
+                    <cylinder radius="0.03" length="0.02"/>
+                </geometry>
+                <!-- 材质和颜色-->
+                <material name="black">
+                    <color rgba="0.0 0.0 0.0 1.0"/>
+                </material>
+            </visual>
+        </link>
+
+        <!-- 机器人的关节，用于组合机器人各个部分-->
+        <joint name="radar_joint" type="fixed">
+            <!-- 连接的父链接和子链接-->
+            <parent link="radar_cylinder_link"/>
+            <child link="radar_link"/>
+            <!-- 关节的原点位置和姿态-->
+            <origin xyz="0.0 0.0 0.05" rpy="0.0 0.0 0.0"/>
+        </joint>
+
+        <joint name="radar_cylinder_joint" type="fixed">
+            <!-- 连接的父链接和子链接-->
+            <parent link="base_link"/>
+            <child link="radar_cylinder_link"/>
+            <!-- 关节的原点位置和姿态-->
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+        </joint>
+    </xacro:macro>
+
+</robot>
